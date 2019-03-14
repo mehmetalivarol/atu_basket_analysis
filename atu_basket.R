@@ -16,6 +16,7 @@ pacman::p_load(
   "ggthemes",
   "RColorBrewer"
 )
+
 pacman::p_isloaded(
   "readxl",
   "tidyverse",
@@ -28,7 +29,6 @@ pacman::p_isloaded(
 )
 
 # DATA LOAD & MERGE -------------------------------------------------------
-
 
 df_1 <-
   bind_rows(
